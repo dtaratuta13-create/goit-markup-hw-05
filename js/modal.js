@@ -10,16 +10,9 @@
 
   refs.openModalBtn.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
-  refs.modal.addEventListener("click", onBackdropClick);
-
+  
   function toggleModal() {
     // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
     refs.modal.classList.toggle("is-open");
-  }
-
-  function onBackdropClick(event) {
-    if (event.target === refs.modal) {
-      toggleModal();
-    }
   }
 })();
