@@ -501,9 +501,16 @@ img {
 
 .footer-cont {
   display: flex;
-  justify-content: space-between;
-  gap: 120px; 
   align-items: baseline;
+}
+
+.footer-cont > .footer-social-media:first-of-type {
+  margin-left: 120px;
+  margin-right: 80px;
+}
+
+.footer-cont > .footer-social-media:last-of-type {
+  margin-left: auto;
 }
 
 
