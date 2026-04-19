@@ -502,8 +502,7 @@ img {
 .footer-cont {
   display: flex;
   align-items: baseline;
-  justify-content: flex-end;
-  gap: 80px;
+  justify-content: flex-start;
 }
 
 .footer-left {
@@ -563,11 +562,10 @@ img {
 .footer-subscribe-form {
   display: flex;
   gap: 24px;
+  
 }
-
-.footer-subscribe-form {
-  display: flex;
-  gap: 24px;
+.footer-subscribe {
+  margin-left: auto;
 }
 
 .footer-subscribe-input {
