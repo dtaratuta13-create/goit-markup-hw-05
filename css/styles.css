@@ -501,8 +501,9 @@ img {
 
 .footer-cont {
   display: flex;
- 
+  justify-content: space-between;
   gap: 120px; 
+  align-items: baseline;
 }
 
 
@@ -856,6 +857,8 @@ img {
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: #fff;
+
+  cursor: pointer;
 }
 
 .modal-form-btn:hover,
